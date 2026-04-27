@@ -1,0 +1,22 @@
+using System.ComponentModel;
+using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
+using AutoMapper;
+using LeaveManagementSystem.Web.Data;
+using LeaveManagementSystem.Web.Models.LeaveRequests;
+
+namespace LeaveManagementSystem.Web.MappingProfiles
+{
+    public class LeaveRequestAutoMapperProfile : Profile {
+        
+        public LeaveRequestAutoMapperProfile()
+        {
+            CreateMap<LeaveRequestCreateVM, LeaveRequest>();
+        }
+    
+        
+
+        
+        
+    }
+    }

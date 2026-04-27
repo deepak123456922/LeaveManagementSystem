@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .hero-box {
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        color: white;
+        padding: 70px 20px;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .hero-box h1 {
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+
+    .hero-box p {
+        font-size: 1.2rem;
+        margin-top: 15px;
+        opacity: 0.95;
+    }
+
+    .calendar-img {
+        width: 150px;
+        margin-top: 30px;
+    }
+
+    @@media (max-width: 768px) {
+        .hero-box h1 {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<div class="container">
+
+    <div class="hero-box">
+
+        <h1>Welcome to your Leave Management Office</h1>
+
+        <p>Apply for leaves and track your leave status easily</p>
+
+        
+        <img src="https://cdn-icons-png.flaticon.com/512/747/747310.png"
+             class="calendar-img"
+             alt="Calendar" />
+
+    </div>
+
+</div>
